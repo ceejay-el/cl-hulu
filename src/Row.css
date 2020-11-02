@@ -1,0 +1,25 @@
+.row {
+    margin-top: 2rem;
+    margin-left: 20px;
+}
+.movie_posters {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+}
+.movie_posters::-webkit-scrollbar { display: none;}
+.movie_poster {
+    width: 60%;
+    object-fit: contain;
+    max-width: 18rem;
+    margin: 2px;
+    border-radius: 3px;
+    transition: transform 450ms;
+}
+.movie_poster:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
+.movie_posterLarge {max-height: 50rem;}
+.movie_posterLarge:hover {transform: scale(1.09);}

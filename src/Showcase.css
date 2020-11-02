@@ -1,0 +1,47 @@
+.showcase {
+    object-fit: contain;
+    height: 60%;
+}
+.showcase_2 {
+    object-fit: contain;
+    height: 60%;
+    margin: 4rem 3rem 3rem 3rem;
+    border-radius: 4px;
+}
+.showcase_contents {
+    margin-left: 5rem;
+    padding-top: 25rem;
+    padding-bottom: 15rem;
+    height: 10rem;
+    width: 40rem;
+}
+.title {font-size: 5rem;}
+.showcase_desc {
+    line-height: 1.8rem;
+    max-width: 40rem;
+    max-height: 10rem;
+}
+.showcase-btn {
+    padding: .8rem 2rem;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    color: #f0f8ff;
+    text-transform: uppercase;
+}
+.showcase-btn:first-child {
+    background: #f0f8ff;
+    margin-right: 4px;
+    color: #111;
+}
+.showcase-btn:nth-child(2) {
+    background: transparent;
+    border: #f0f8ff solid 1px;
+}
+.showcase-btn:hover {
+    cursor: pointer;
+    background: #d3d3d3;
+    transition: ease .7s;
+}

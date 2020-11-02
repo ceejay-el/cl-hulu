@@ -1,0 +1,17 @@
+.nav {
+    position: fixed;
+    padding: 1rem 1rem .9rem 3rem;
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    border-bottom: #f0f8ff 1px solid;
+    transition: all ease .5s;
+    z-index: 1;
+}
+.avatar {
+    width: 45px;
+    object-fit: contain;
+    margin-right: 3rem;
+    margin-top: -1rem;
+}
+.nav_bg-dark {background: #1a1919;}
