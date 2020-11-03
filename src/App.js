@@ -1,10 +1,11 @@
 import React from "react";
 import './App.css';
-import Row from "./Row";
 import requests from "./requests";
 import Showcase from "./Showcase";
 import Showcase_2 from "./Showcase_2";
 import Nav from "./Nav";
+import Row from "./Row";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Row title="ROMANCE" fetchUrl={requests.fetchRomance}/>
       <Row title="HORROR" fetchUrl={requests.fetchHorror}/>
       <Row title="DOCUMENTARIES" fetchUrl={requests.fetchDocumentaries}/>
+      <Footer/>
     </div>
   );
 }

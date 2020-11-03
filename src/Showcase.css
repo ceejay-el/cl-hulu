@@ -1,12 +1,14 @@
 .showcase {
     object-fit: contain;
     height: 60%;
+    overflow-x: hidden;
 }
 .showcase_2 {
     object-fit: contain;
     height: 60%;
     margin: 4rem 3rem 3rem 3rem;
     border-radius: 4px;
+    overflow-x: hidden;
 }
 .showcase_contents {
     margin-left: 5rem;
@@ -18,7 +20,7 @@
 .title {font-size: 5rem;}
 .showcase_desc {
     line-height: 1.8rem;
-    max-width: 40rem;
+    max-width: 35rem;
     max-height: 10rem;
 }
 .showcase-btn {
@@ -44,4 +46,31 @@
     cursor: pointer;
     background: #d3d3d3;
     transition: ease .7s;
+}
+
+/* Surface */
+@media (max-width: 600px){
+    .showcase_contents{
+        margin-left: 1.5rem;
+        padding-top: 15rem;
+        padding-bottom: 10rem;
+        height: 6rem;
+        width: 100%;
+    }
+    .title {font-size: 1.8rem;}
+    .showcase_desc {
+        line-height: 1.1rem;
+        max-width: 90%;
+        max-height: 100%;
+        font-size: .8rem;
+    }
+    .showcase-btn {
+        padding: .4rem 1rem;
+        font-size: .7rem;
+        margin-top: .7rem;
+    }
+}
+@media (max-width: 320px){
+    .showcase-btn { margin-top: 3rem;}
+    .showcase_desc { font-size: .6rem;}
 }

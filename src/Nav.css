@@ -11,7 +11,25 @@
 .avatar {
     width: 45px;
     object-fit: contain;
-    margin-right: 3rem;
     margin-top: -1rem;
 }
-.nav_bg-dark {background: #1a1919;}
+.nav_bg-dark {background: #000d1a;}
+
+@media (max-width: 1450px){
+    .nav {width: 96%;}
+}
+@media (max-width: 1024px){
+    .nav { width: 94%;}
+}
+@media (max-width: 768px){
+    .nav { width: 93%;}
+}
+@media (max-width: 600px) {
+    .nav { width: 89%;}
+}
+@media (max-width: 414px){
+    .nav { width: 84.4%;}
+}
+@media (max-width: 375px){
+    .nav { width: 83%;}
+}
